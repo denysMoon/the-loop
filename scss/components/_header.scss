@@ -1,0 +1,80 @@
+.top{
+  height: 650px;
+  background-color: #F9F6F1;
+}
+.header__nav>a{
+  font-size: 14px;
+  font-weight: 500;
+}
+.header__nav{
+  width: 918px;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 61px;
+}
+.header__nav_backet{
+  width: 91px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 61px;
+}
+.header__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__main_title{
+  font-size: 30px;
+  font-weight: 400;
+  text-align: start;
+  margin-top: 60px;
+}
+.header__main_text{
+  font-size: 55px;
+  font-weight: 700;
+  text-align: start;
+  margin-top: 35px;
+}
+.header__main_button{
+  font-size: 16px;
+  color: white;
+  width: 240px;
+  height: 55px;
+  background-color: #D7B399;
+  margin-top: 35px;
+  border-radius: 2px;
+}
+.header__main_left{
+  width: 570px;
+  height: 224px;
+}
+.header__main_right{
+  width: 556px;
+  height: 377px;
+  background: url("../img/running_shoes_PNG5823.png");
+}
+.header__main_right:hover{
+  transform: scale(1.2);
+}
+.old-cell{
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: line-through;
+  text-align: end;
+  padding-top: 80px;
+}
+.new-cell{
+  font-size: 42px;
+  font-weight: 700;
+  color: #D84033;
+  padding-top: 10px;
+  text-align: end;
+}
+.header__main{
+  padding-top: 100px;
+  display: flex;
+}
